@@ -9,7 +9,9 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Animator animator;
     private Vector2 moveInput;
+    [SerializeField]
     private bool jumpPressed;
+    [SerializeField]
     private bool isGrounded;
 
     private PlayerInputActions inputActions;
@@ -22,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
         inputActions.Player.Move.canceled += ctx => moveInput = Vector2.zero;
 
         inputActions.Player.Jump.performed += ctx => jumpPressed = true;
+        inputActions.Player.Jump.canceled += ctx => jumpPressed = false;
     }
 
     void OnEnable() => inputActions.Enable();
@@ -41,17 +44,19 @@ public class PlayerMovement : MonoBehaviour
         if (jumpPressed && isGrounded)
         {
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            animator.SetBool("Jump", true);
             isGrounded = false;
-            jumpPressed = false;
         }
 
-        if (moveInput.x != 0)
-            transform.localScale = new Vector3(Mathf.Sign(moveInput.x), 1, 1);
+        if (moveInput.x != 0) transform.localScale = new Vector3(Mathf.Sign(moveInput.x), 1, 1);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
+        {
             isGrounded = true;
+            animator.SetBool("Jump", false);
+        }
     }
 }
