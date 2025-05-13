@@ -42,6 +42,7 @@ public class PlayerInfo : MonoBehaviour
 
       // Запускаем анимацию исчезновения
       Animator anim = heartToRemove.GetComponent<Animator>();
+      
       if (anim != null)
          anim.SetTrigger("Disappear");
 
