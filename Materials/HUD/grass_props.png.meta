@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bde79a6586b2b9640a738cde2d617a68
+guid: 30e48f190034b4a4e8a8f3964920bdb1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3285245577577684935
-    second: lifes_icon_0
+      213: 1789348771527016768
+    second: grass_props_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lifes_icon_0
+      name: grass_props_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 15
-        height: 14
+        y: 0
+        width: 16
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9302f8c9d867862d0800000000000000
-      internalID: -3285245577577684935
+      spriteID: 04146223a3b05d810800000000000000
+      internalID: 1789348771527016768
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      lifes_icon_0: -3285245577577684935
+      grass_props_0: 1789348771527016768
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
