@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using TMPro;
@@ -9,11 +10,24 @@ public class PlayerInfo : MonoBehaviour
    public TextMeshProUGUI healthText;
    public TextMeshProUGUI coinText;
    public TextMeshProUGUI orbText;
-   public int life = 0;
    public GameObject heartPrefab;
    public Transform container;
    private List<GameObject> hearts = new List<GameObject>();
    
+   public int maxHealth = 100;
+   public int currentHealth;
+   public int life;
+   public int orb;
+   public int key;
+   public int coin;
+   private void Start()
+   {
+    currentHealth = maxHealth;
+    coin = 0;
+    life = 0;
+    orb = 0;
+    key = 0;
+   }
    public void AddHeart()
    {
       GameObject newHeart = Instantiate(heartPrefab, container);
@@ -56,7 +70,21 @@ public class PlayerInfo : MonoBehaviour
          Die();
    }
 
-   private void Die()
+   public void UpdateCurrencyText(string type)
+   {
+      if (type == "coin")
+      {
+         coin++;
+         coinText.text = coin.ToString();
+      }
+      else if (type == "orb")
+      {
+         orb++;
+         orbText.text = orb.ToString();
+      }
+   }
+
+   public void Die()
    {
       Debug.Log("Игрок умер 😵");
    }

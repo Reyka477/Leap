@@ -55,44 +55,5 @@ public class GameManager : MonoBehaviour
 
         UpdateHealthUI();
     }
-
-    public void HandlePickup(PickupItem.PickupType type, GameObject itemObject)
-    {
-        switch (type)
-        {
-            case PickupItem.PickupType.Coin:
-                playerInfo.coin++;
-                playerInfo.coinText.text = playerInfo.coin.ToString();
-                break;
-
-            case PickupItem.PickupType.Orb:
-                playerInfo.orb++;
-                playerInfo.orbText.text = playerInfo.orb.ToString();
-                break;
-
-            case PickupItem.PickupType.Heart:
-                playerInfo.life++;
-                break;
-
-            case PickupItem.PickupType.Key:
-                playerInfo.key++;
-                break;
-
-            case PickupItem.PickupType.HealthPotion:
-                break;
-
-            case PickupItem.PickupType.AntidotePotion:
-                break;
-        }
-        Animator anim = itemObject.GetComponent<Animator>();
-        if (anim != null)
-        {
-            anim.SetTrigger("Pickup");
-            Destroy(itemObject, 0.3f);
-        }
-        else
-        {
-            Destroy(itemObject);
-        }
-    }
+    
 }
