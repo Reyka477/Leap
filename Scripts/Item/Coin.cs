@@ -23,7 +23,7 @@ public class Coin : MonoBehaviour
         
         // Добавляем монеты, обновляем текст
         collected = true;
-        PlayerInfo.UpdateCurrencyText("coin");
+        PlayerInfo.coin++;
         
         // Запускаем звук
         if (audioSource != null)

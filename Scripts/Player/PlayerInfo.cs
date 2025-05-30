@@ -19,7 +19,18 @@ public class PlayerInfo : MonoBehaviour
    public int life;
    public int orb;
    public int key;
-   public int coin;
+   private int _coin;
+
+   public int coin
+   {
+      get => _coin;
+      set
+      {
+         _coin = value;
+         coinText.text = _coin.ToString();
+      }
+   }
+   
    private void Start()
    {
     currentHealth = maxHealth;
@@ -68,20 +79,6 @@ public class PlayerInfo : MonoBehaviour
 
       if (life <= 0)
          Die();
-   }
-
-   public void UpdateCurrencyText(string type)
-   {
-      if (type == "coin")
-      {
-         coin++;
-         coinText.text = coin.ToString();
-      }
-      else if (type == "orb")
-      {
-         orb++;
-         orbText.text = orb.ToString();
-      }
    }
 
    public void Die()
