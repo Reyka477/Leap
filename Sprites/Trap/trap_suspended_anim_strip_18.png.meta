@@ -88,7 +88,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -167,10 +167,10 @@ TextureImporter:
       name: trap_suspended_anim_strip_18_0
       rect:
         serializedVersion: 2
-        x: 43
+        x: 0
         y: 0
-        width: 26
-        height: 49
+        width: 112
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,10 +189,10 @@ TextureImporter:
       name: trap_suspended_anim_strip_18_1
       rect:
         serializedVersion: 2
-        x: 162
-        y: 1
-        width: 33
-        height: 48
+        x: 112
+        y: 0
+        width: 112
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,10 +211,10 @@ TextureImporter:
       name: trap_suspended_anim_strip_18_2
       rect:
         serializedVersion: 2
-        x: 274
-        y: 7
-        width: 45
-        height: 42
+        x: 224
+        y: 0
+        width: 112
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,10 +233,10 @@ TextureImporter:
       name: trap_suspended_anim_strip_18_3
       rect:
         serializedVersion: 2
-        x: 386
-        y: 16
-        width: 51
-        height: 35
+        x: 336
+        y: 0
+        width: 112
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,10 +255,10 @@ TextureImporter:
       name: trap_suspended_anim_strip_18_4
       rect:
         serializedVersion: 2
-        x: 498
-        y: 19
-        width: 52
-        height: 34
+        x: 448
+        y: 0
+        width: 112
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,10 +277,10 @@ TextureImporter:
       name: trap_suspended_anim_strip_18_5
       rect:
         serializedVersion: 2
-        x: 610
-        y: 19
-        width: 52
-        height: 34
+        x: 560
+        y: 0
+        width: 112
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,10 +299,10 @@ TextureImporter:
       name: trap_suspended_anim_strip_18_6
       rect:
         serializedVersion: 2
-        x: 722
-        y: 16
-        width: 51
-        height: 35
+        x: 672
+        y: 0
+        width: 112
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,10 +321,10 @@ TextureImporter:
       name: trap_suspended_anim_strip_18_7
       rect:
         serializedVersion: 2
-        x: 834
-        y: 7
-        width: 45
-        height: 42
+        x: 784
+        y: 0
+        width: 112
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,10 +343,10 @@ TextureImporter:
       name: trap_suspended_anim_strip_18_8
       rect:
         serializedVersion: 2
-        x: 946
-        y: 1
-        width: 33
-        height: 48
+        x: 896
+        y: 0
+        width: 112
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -365,10 +365,10 @@ TextureImporter:
       name: trap_suspended_anim_strip_18_9
       rect:
         serializedVersion: 2
-        x: 1051
+        x: 1008
         y: 0
-        width: 26
-        height: 49
+        width: 112
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -387,10 +387,10 @@ TextureImporter:
       name: trap_suspended_anim_strip_18_10
       rect:
         serializedVersion: 2
-        x: 1149
-        y: 1
-        width: 33
-        height: 48
+        x: 1120
+        y: 0
+        width: 112
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -409,10 +409,10 @@ TextureImporter:
       name: trap_suspended_anim_strip_18_11
       rect:
         serializedVersion: 2
-        x: 1249
-        y: 7
-        width: 45
-        height: 42
+        x: 1232
+        y: 0
+        width: 112
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,10 +431,10 @@ TextureImporter:
       name: trap_suspended_anim_strip_18_12
       rect:
         serializedVersion: 2
-        x: 1355
-        y: 16
-        width: 51
-        height: 35
+        x: 1344
+        y: 0
+        width: 112
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -453,10 +453,10 @@ TextureImporter:
       name: trap_suspended_anim_strip_18_13
       rect:
         serializedVersion: 2
-        x: 1466
-        y: 19
-        width: 52
-        height: 34
+        x: 1456
+        y: 0
+        width: 112
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -475,10 +475,10 @@ TextureImporter:
       name: trap_suspended_anim_strip_18_14
       rect:
         serializedVersion: 2
-        x: 1578
-        y: 19
-        width: 52
-        height: 34
+        x: 1568
+        y: 0
+        width: 112
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -497,10 +497,10 @@ TextureImporter:
       name: trap_suspended_anim_strip_18_15
       rect:
         serializedVersion: 2
-        x: 1691
-        y: 16
-        width: 51
-        height: 35
+        x: 1680
+        y: 0
+        width: 112
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -519,10 +519,10 @@ TextureImporter:
       name: trap_suspended_anim_strip_18_16
       rect:
         serializedVersion: 2
-        x: 1809
-        y: 7
-        width: 45
-        height: 42
+        x: 1792
+        y: 0
+        width: 112
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -541,10 +541,10 @@ TextureImporter:
       name: trap_suspended_anim_strip_18_17
       rect:
         serializedVersion: 2
-        x: 1933
-        y: 1
-        width: 33
-        height: 48
+        x: 1904
+        y: 0
+        width: 112
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -563,7 +563,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a13254e25a02bb9419e3535ef605da83
     internalID: 0
     vertices: []
     indices: 
@@ -571,8 +571,28 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
-    nameFileIdTable: {}
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":18.0,"y":1.0},"gridSpriteSize":{"x":112.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      trap_suspended_anim_strip_18_0: 6782458123959412808
+      trap_suspended_anim_strip_18_1: 4429818497583414520
+      trap_suspended_anim_strip_18_10: -2354111680471342376
+      trap_suspended_anim_strip_18_11: 4521207015666020279
+      trap_suspended_anim_strip_18_12: 7787030385759691179
+      trap_suspended_anim_strip_18_13: -6752857629480871278
+      trap_suspended_anim_strip_18_14: -2600381812262764595
+      trap_suspended_anim_strip_18_15: 6643189836663336534
+      trap_suspended_anim_strip_18_16: -5641805808809206225
+      trap_suspended_anim_strip_18_17: -8393683731355118909
+      trap_suspended_anim_strip_18_2: 9059850130054237318
+      trap_suspended_anim_strip_18_3: 3895677650216918021
+      trap_suspended_anim_strip_18_4: -4200403697739519434
+      trap_suspended_anim_strip_18_5: 5422600506294722241
+      trap_suspended_anim_strip_18_6: -3458414997968490293
+      trap_suspended_anim_strip_18_7: 188567066741601211
+      trap_suspended_anim_strip_18_8: 2671618440806799345
+      trap_suspended_anim_strip_18_9: -2239109628542883412
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
